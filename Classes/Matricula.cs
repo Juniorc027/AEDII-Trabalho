@@ -1,21 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System;
 
 namespace AEDII_Trabalho.Classes
 {
+    // Representa o vínculo entre um aluno e uma disciplina, armazenando suas notas
     public class Matricula
     {
-        private int codigodisciplina;
+        // Encapsulamento dos campos.
+        private int codigoDisciplina;
         private int matriculaAluno;
         private double nota1;
         private double nota2;
+
         public int CodigoDisciplina
         {
-            get => codigodisciplina;
-            set => codigodisciplina = value;
+            get => codigoDisciplina;
+            set => codigoDisciplina = value;
         }
-
         public int MatriculaAluno
         {
             get => matriculaAluno;
@@ -35,4 +35,3 @@ namespace AEDII_Trabalho.Classes
         }
     }
 }
-

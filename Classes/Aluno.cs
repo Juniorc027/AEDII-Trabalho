@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System;
 
 namespace AEDII_Trabalho.Classes
 {
     public class Aluno
     {
+        // Campos privados com encapsulamento 
         private int matricula;
         private string nome;
         private int idade;

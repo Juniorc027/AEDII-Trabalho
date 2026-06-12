@@ -1,31 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System;
 
 namespace AEDII_Trabalho.Classes
 {
+    // Representa uma disciplina com código único, nome e nota mínima para aprovação
     public class Disciplina
     {
-        private int codigodisciplina;
-        private string Nome;
-        private double NotaMinima;
+        // Encapsulamento dos campos privados.
+        private int codigoDisciplina;
+        private string nomeDisciplina;
+        private double notaMinimaDisciplina;
 
         public int CodigoDisciplina
         {
-            get => codigodisciplina;
-            set => codigodisciplina = value;
+            get => codigoDisciplina;
+            set => codigoDisciplina = value;
         }
 
         public string NomeDisciplina
         {
-            get => Nome;
-            set => Nome = value;
+            get => nomeDisciplina;
+            set => nomeDisciplina = value;
         }
 
         public double NotaMinimaDisciplina
         {
-            get => NotaMinima;
-            set => NotaMinima = value;
+            get => notaMinimaDisciplina;
+            set => notaMinimaDisciplina = value;
         }
     }
 }
